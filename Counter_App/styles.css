@@ -1,0 +1,86 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --violate: rgb(5, 5, 20);
+    --green: rgb(18, 97, 31);
+    --transition: background-color,color 0.3s ease-in;
+}
+
+body{
+    font-size: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    padding: 3rem;
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--violate);
+    text-align: center;
+}
+
+.btn-container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span{
+    display: block;
+    font-size: 6rem;
+    text-align: center;
+    margin: 1rem auto;
+    color: var(--green);
+    font-weight: bold;
+}
+
+.btn{
+    padding: 7px 14px;
+    font-size: 0.9rem;
+    margin: 8px;
+    background-color: transparent;
+    border: 2px solid var(--violate);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    color: #fafafa;
+    background-color: var(--violate);
+    
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: 3rem;
+    }
+    span{
+        font-size: 4rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+    }
+    .container{
+        padding: 2rem;
+    }
+}
