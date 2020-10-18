@@ -34,6 +34,10 @@ h1 {
   text-align: center;
 }
 
+.num{
+    color: var(--violate);
+}
+
 .btn-container {
   width: 100%;
   max-width: 500px;

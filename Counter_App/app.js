@@ -9,14 +9,21 @@ num.textContent = counter;
 increase.addEventListener('click',function(){
     counter++;
     num.textContent = counter;
+    if(counter > 0){
+        num.style.color = "rgb(18, 97, 31)";
+    }
 })
 
 decrease.addEventListener('click',function(){
     counter--;
     num.textContent = counter;
+    if (counter < 0) {
+        num.style.color = "#ed160e";
+    }
 })
 
 reset.addEventListener('click',function(){
     counter = 0;
     num.textContent = counter;
+    num.style.color = "rgb(5, 5, 20)";
 })
