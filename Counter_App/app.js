@@ -12,6 +12,9 @@ increase.addEventListener('click',function(){
     if(counter > 0){
         num.style.color = "rgb(18, 97, 31)";
     }
+    if (counter == 0) {
+        num.style.color = "rgb(5, 5, 20)";
+    }
 })
 
 decrease.addEventListener('click',function(){
@@ -19,6 +22,9 @@ decrease.addEventListener('click',function(){
     num.textContent = counter;
     if (counter < 0) {
         num.style.color = "#ed160e";
+    }
+    if (counter == 0) {
+        num.style.color = "rgb(5, 5, 20)";
     }
 })
 
