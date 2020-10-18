@@ -1,6 +1,6 @@
 const users = [
     {
-        avatar: 'https://lh3.googleusercontent.com/proxy/AlwzLTYejQYi7dRg9Jwl7E3YiQc0_4ZsiQZXxam6_MFPW8pf6UnBkKGB-WvvcMoV5w2yJJgSfWOLOruFtvu0HBy8VHCWIgSbNqx3CxRYIvCYMtuV',
+        avatar: 'https://lh3.googleusercontent.com/proxy/Y79gbHpxthb1hx6bpuwJYYEwKyCtki1Oyqt0788MIuiwo5SfNW6ycosO6lghsauGdH3lGpo9DMu9u0MW5IyWU9ulhGFBo_Cl4rPwSURZ--9CAVFL',
         name: 'Daniel Hoobs',
         desc: 'Web Developer',
         feedback: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.'
