@@ -27,6 +27,7 @@ header{
     padding: 30px;
     background-color: #fff;
     border-radius: 8px;
+    text-align: center;
 }
 
 .projects__container{
@@ -39,6 +40,7 @@ header{
     background-color: rgb(234, 236, 114);
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+    display: none;
 }
 
 .project__item:hover{
@@ -65,6 +67,27 @@ header{
     font-weight: bold;
 }
 
+.load{
+    background-color: rgb(234, 236, 114);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.load:active{
+    transform: scale(0.97);
+}
+
+.load:hover{
+    box-shadow: 0 0 10px rgb(206, 202, 202);
+}
+
 footer{
     padding: 20px;
     text-align: center;
@@ -77,13 +100,13 @@ footer a{
 }
 
 @media (max-width: 800px){
-    .projects{
+    .projects__container{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 560px){
-    .projects{
+    .projects__container{
         grid-template-columns:1fr;
     }
 
