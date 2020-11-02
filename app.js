@@ -7,20 +7,14 @@ window.onload = function () {
   }
 };
 
-toggle_btn.addEventListener("click", showMore);
-
-function showMore() {
-    if(projects[6].style.display == "none"){
-        for(let i = 5; i < projects.length; i++){
-            projects[i].style.display = "block";
-        }
+toggle_btn.addEventListener("click", function () {
+  if (projects[6].style.display == "none") {
+    for (let i = 5; i < projects.length; i++) {
+      projects[i].style.display = "block";
     }
-    else{
-        for(let i = 5; i < projects.length; i++){
-            projects[i].style.display = "none";
-        }
+  } else {
+    for (let i = 6; i < projects.length; i++) {
+      projects[i].style.display = "none";
     }
-    
-}
-
-
+  }
+});
