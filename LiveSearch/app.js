@@ -12,7 +12,7 @@ const filterData = (keyword) => {
   });
 };
 
-filter.addEventListener('input', (e) => {
+filter.addEventListener('change', (e) => {
   filterData(e.target.value);
 });
 
