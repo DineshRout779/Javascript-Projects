@@ -4,7 +4,7 @@ const listItems = [];
 
 const filterData = (keyword) => {
   listItems.forEach((item) => {
-    if (item.innerText.toLowerCase().includes(keyword)) {
+    if (item.innerText.toLowerCase().includes(keyword.toLowerCase())) {
       item.classList.remove('hide');
     } else {
       item.classList.add('hide');
